@@ -1,0 +1,214 @@
+*,html,body
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    overflow-x: hidden;
+}
+header
+{
+    height: 110px;
+    line-height: 110px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
+h1
+{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+a {
+    color: white;
+}
+h1:hover
+{
+    color: red;
+    text-decoration: none; 
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display: inline-block;
+}
+
+header nav
+{
+    float: right;
+}
+
+header nav ul li a
+{
+    padding-right: 20px;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover
+{
+    color: red;
+    text-decoration: none;
+}
+
+.mon
+{
+    background-color: royalblue;
+    padding: 100px;
+}
+
+.tue
+{
+    background-color: mediumseagreen;
+    padding: 100px;
+}
+
+.wed
+{
+    background-color: orange;
+    padding: 100px;
+}
+
+.thu
+{
+    background-color: skyblue;
+    padding: 100px;
+}
+
+
+iframe{
+    display: inline-block;
+}
+
+.fri
+{
+    background-color: plum;
+    padding: 100px;
+}
+
+.sat
+{
+    background-color: gold;
+    padding: 100px;
+}
+
+.sun
+{
+    background-color: orangered;
+    padding: 100px;
+    height: 100%
+}
+.slider div
+{
+    width: 100%;
+   height: 100%;
+    color: white;
+    padding-bottom: 150px;
+    overflow: hidden;
+}
+
+.slider h2
+{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.slider p
+{
+    display: inline-block;
+    width: 400px;
+    margin-top: 30px;
+}
+.mon_img
+{
+    float: right;
+    margin-right: 75px;
+}
+
+.tue_img1
+{
+    float: right;
+    margin-right: 50px;
+    transform: rotate(30deg);
+    animation-name: tue_R;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.tue_img2
+{
+    float: right;
+    margin-right: 50px;
+    transform: rotate(-30deg);
+    animation-name: tue_W;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+}
+
+.wed_img1
+{
+    float: right;
+    margin-right: 75px;
+    margin-top: 50px;
+}
+.wed_img2
+{   float: right;
+    transform-origin: top left;
+    animation-name: wedshort;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    z-index: 1;
+    position: relative;
+    left:263px;
+    top:228px;
+}
+.wed_img3
+{float: right;
+    transform-origin: top left;
+    animation-name: wedshort;
+    animation-duration: 180s;
+    animation-iteration-count: infinite;
+    z-index: 2;
+    position: relative;
+    left:323px;
+    top:225px;
+}
+.fri_img
+{
+    float: right;
+    margin-right: 75px;
+}
+.sat_img
+{
+    float: right;
+    margin-right: 75px;
+}
+.sun_img
+{
+    float: right;
+    margin-right: 75px;
+}
+/* 
+.slider .btn
+{
+    padding: 10px 50px;
+    border: 1px solid powderblue;
+}
+
+.slider .btn-first
+{
+    background-color: darkblue;
+} */
